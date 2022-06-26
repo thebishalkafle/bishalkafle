@@ -1,3 +1,5 @@
+<!--Html/css&Javascript Written by Bishal Kafle-->
+<!--You can copy this code and add your own details for your website-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,21 +8,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bishal Kafle</title>
     <link rel="icon" href="mypic.png">
+
+
+    <!--Style.css starts-by bishalkafleproduction-->
     <style>
         *{
             margin: 0px;
             padding: 0px;
             background-color: black;
         }
-        .dateconverter{
-            position: absolute;
-        }
-        @media(max-width: 900px){
-            .dateconverter{
-                display: none;
-            }
-        }
+       .hamropatro{
+        position: absolute;
+
+       }
     </style>
+    <!--Style.css ends-by bishalkafleproduction-->
+
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -34,12 +37,21 @@
     })();
     </script>
     <!--End of Tawk.to Script-->
+
+
 </head>
 <body>
-<div class="dateconverter">
-    <p style="color: white;">Convert Date:</p>
-    <iframe src="https://www.hamropatro.com/widgets/dateconverter.php" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" style="border:none; overflow:hidden; width:350px; height:150px;" allowtransparency="true"></iframe>
-</div>
+<!--Hamro Patro ko date dekhaune- by bishalkafleproduction-->
+    <button onClick="hamropatrodate()"><img src="icon.png"></button>
+    <div class="hamropatro">
+        <iframe src="https://www.hamropatro.com/widgets/dateconverter.php" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" style="border:none; overflow:hidden; width:350px; height:150px;" allowtransparency="true"></iframe><br>
+        <iframe src="https://www.hamropatro.com/widgets/calender-small.php" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" style="border:none; overflow:hidden; width:200px; height:290px;" allowtransparency="true"></iframe>
+
+    </div>
+
+<!--Ends of hamropatro ko date dekhaune!!!-->
+
+<!--body starts.................Bishalkafleproduction-->
     <section class="header">
         <div class="picture">
             <br><br><br>
@@ -60,21 +72,29 @@
             <center><p style="color:white"><a href="https://mabishalho.medium.com" target="_blank" style="color: rgb(176, 89, 154);">Read my blogs</a></p></center>
 
         </div>
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
     </section>
+<!--body ends----bishalkafleproduction-->
+
+
+
+<!--Java function hamro patro wedget dekhauna ko lagi-->
+    <script>
+        let openclose = document.querySelector(".hamropatro");
+        openclose.style.display= "none";
+        let isShow = true;
+        function hamropatrodate(){
+            if (isShow) {
+                openclose.style.display = "block";
+                isShow=false;
+            }else {
+                openclose.style.display = "none";
+                isShow = true;
+            }
+
+        }
+
+    </script>
+<!--Hamropatro ends-->
     
 </body>
 </html>
