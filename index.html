@@ -19,7 +19,15 @@
         }
        .hamropatro{
         position: absolute;
-
+        background-color: transparent;
+       }
+       .marketnewzz{
+        position: absolute;
+        left: 95.18%;
+       }
+       .marketchart{
+        position: absolute;
+        float: right;
        }
     </style>
     <!--Style.css ends-by bishalkafleproduction-->
@@ -43,13 +51,276 @@
 <body>
 <!--Hamro Patro ko date dekhaune- by bishalkafleproduction-->
     <button onClick="hamropatrodate()"><img src="icon.png"></button>
+    <button onClick="marketnews()" style="float: right;"><img src="icon.png"></button>
     <div class="hamropatro">
         <iframe src="https://www.hamropatro.com/widgets/dateconverter.php" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" style="border:none; overflow:hidden; width:350px; height:150px;" allowtransparency="true"></iframe><br>
-        <iframe src="https://www.hamropatro.com/widgets/calender-small.php" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" style="border:none; overflow:hidden; width:200px; height:290px;" allowtransparency="true"></iframe>
+        <iframe src="https://www.hamropatro.com/widgets/calender-small.php" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" style="border:none; overflow:hidden; width:200px; height:290px;" allowtransparency="true"></iframe><br>
 
     </div>
-
 <!--Ends of hamropatro ko date dekhaune!!!-->
+
+<!-- Finlogix Widget BEGIN-->
+<div class="marketchart">
+    <div class="finlogix-container">
+	<div id="a9bca2"></div>
+	<script type="text/javascript" src="https://widget.finlogix.com/Widget.js"></script>
+	<script type="text/javascript">
+		Widget.init({
+			type: 'MarketChart',
+			width: 465,
+			height: 500,
+			ranges: [ '1H', '4H', '1D', '1W', '1Y', 'ALL'],
+			language: 'en',
+			custom: {
+				title: 'Market',
+				subclasses: [
+					{
+						subtitle: 'Forex',
+						symbolPairs: [
+							{
+								id: '1',
+								symbolId: '19',
+								symbolName: 'EUR/USD',
+								displayName: 'EUR/USD'
+							},
+							{
+								id: '2',
+								symbolId: '5',
+								symbolName: 'AUD/USD',
+								displayName: 'AUD/USD'
+							},
+							{
+								id: '3',
+								symbolId: '25',
+								symbolName: 'GBP/USD',
+								displayName: 'GBP/USD'
+							},
+							{
+								id: '4',
+								symbolId: '36',
+								symbolName: 'USD/JPY',
+								displayName: 'USD/JPY'
+							},
+							{
+								id: '5',
+								symbolId: '31',
+								symbolName: 'USD/CAD',
+								displayName: 'USD/CAD'
+							},
+							{
+								id: '6',
+								symbolId: '29',
+								symbolName: 'NZD/USD',
+								displayName: 'NZD/USD'
+							},
+						]
+					},
+					{
+						subtitle: 'Commodities',
+						symbolPairs: [
+							{
+								id: '7',
+								symbolId: '44',
+								symbolName: 'XAU/USD',
+								displayName: 'XAU/USD'
+							},
+							{
+								id: '8',
+								symbolId: '43',
+								symbolName: 'XAG/USD',
+								displayName: 'XAG/USD'
+							},
+							{
+								id: '9',
+								symbolId: '45',
+								symbolName: 'WTI',
+								displayName: 'WTI'
+							},
+							{
+								id: '10',
+								symbolId: '70',
+								symbolName: 'BRENT',
+								displayName: 'BRENT'
+							},
+							{
+								id: '11',
+								symbolId: '108',
+								symbolName: 'XAU/EUR',
+								displayName: 'XAU/EUR'
+							},
+							{
+								id: '12',
+								symbolId: '111',
+								symbolName: 'XAG/EUR',
+								displayName: 'XAG/EUR'
+							},
+						]
+					},
+					{
+						subtitle: 'Cryptocurrency',
+						symbolPairs: [
+							{
+								id: '13',
+								symbolId: '66',
+								symbolName: 'BTC/USD',
+								displayName: 'BTC/USD'
+							},
+							{
+								id: '14',
+								symbolId: '65',
+								symbolName: 'BCH/USD',
+								displayName: 'BCH/USD'
+							},
+							{
+								id: '15',
+								symbolId: '67',
+								symbolName: 'ETH/USD',
+								displayName: 'ETH/USD'
+							},
+							{
+								id: '16',
+								symbolId: '68',
+								symbolName: 'LTC/USD',
+								displayName: 'LTC/USD'
+							},
+							{
+								id: '17',
+								symbolId: '69',
+								symbolName: 'XRP/USD',
+								displayName: 'XRP/USD'
+							},
+						]
+					},
+					{
+						subtitle: 'Indices',
+						symbolPairs: [
+							{
+								id: '18',
+								symbolId: '52',
+								symbolName: 'SP500',
+								displayName: 'SP500'
+							},
+							{
+								id: '19',
+								symbolId: '51',
+								symbolName: 'DJ30',
+								displayName: 'DJ30'
+							},
+							{
+								id: '20',
+								symbolId: '54',
+								symbolName: 'JP225',
+								displayName: 'JP225'
+							},
+							{
+								id: '21',
+								symbolId: '53',
+								symbolName: 'GER30',
+								displayName: 'GER30'
+							},
+							{
+								id: '22',
+								symbolId: '71',
+								symbolName: 'AUS200',
+								displayName: 'AUS200(ASX200)'
+							},
+							{
+								id: '23',
+								symbolId: '74',
+								symbolName: 'HK50',
+								displayName: 'HK50'
+							},
+						]
+					},
+					{
+						subtitle: 'Stocks',
+						symbolPairs: [
+							{
+								id: '24',
+								symbolId: '10006',
+								symbolName: 'Amazon',
+								displayName: 'Amazon'
+							},
+							{
+								id: '25',
+								symbolId: '10007',
+								symbolName: 'Apple',
+								displayName: 'Apple'
+							},
+							{
+								id: '26',
+								symbolId: '10004',
+								symbolName: 'Tesla',
+								displayName: 'Tesla'
+							},
+							{
+								id: '27',
+								symbolId: '20001',
+								symbolName: 'BlackRock',
+								displayName: 'BlackRock'
+							},
+							{
+								id: '28',
+								symbolId: '30009',
+								symbolName: 'BHP',
+								displayName: 'BHP'
+							},
+							{
+								id: '29',
+								symbolId: '30011',
+								symbolName: 'CBA',
+								displayName: 'CBA'
+							},
+						]
+					},
+					{
+						subtitle: 'ETFs',
+						symbolPairs: [
+							{
+								id: '30',
+								symbolId: '60001',
+								symbolName: 'LABU',
+								displayName: 'LABU'
+							},
+							{
+								id: '31',
+								symbolId: '60002',
+								symbolName: 'NUGT',
+								displayName: 'NUGT'
+							},
+							{
+								id: '32',
+								symbolId: '40001',
+								symbolName: 'ACWI',
+								displayName: 'ACWI'
+							},
+							{
+								id: '33',
+								symbolId: '40002',
+								symbolName: 'BJK',
+								displayName: 'BJK'
+							},
+							{
+								id: '34',
+								symbolId: '50001',
+								symbolName: 'BetaShares',
+								displayName: 'BetaShares'
+							},
+							{
+								id: '35',
+								symbolId: '50002',
+								symbolName: 'ACDC',
+								displayName: 'ACDC'
+							},
+						]
+					},
+				],
+			}
+		})
+	</script>
+    </div>
+</div>
+<!-- Finlogix Widget END-->
 
 <!--body starts.................Bishalkafleproduction-->
     <section class="header">
@@ -66,7 +337,7 @@
             <center><p style="color: blueviolet; font-family: cursive;">Perspective Matters</p></center>
         </div><br>
         <div class="say">
-            <center><h3 style="color: white;">Have Something to say?</h3></center>
+            <center><h3 style="color: white;">Have Something to say?</h3>></center>
             <center><p style="color: white; border: 1px solid yellow; display: inline; background-color: rebeccapurple;">Send Mail <a href="mailto:mail@bishalkafle.info.np" style="text-decoration: none; color: red;"> mail@bishalkafle.info.np</a></p></center><br>
             <br>
             <center><p style="color:white"><a href="https://mabishalho.medium.com" target="_blank" style="color: rgb(176, 89, 154);">Read my blogs</a></p></center>
@@ -77,10 +348,12 @@
 
 
 
-<!--Java function hamro patro wedget dekhauna ko lagi-->
+<!--Java function hamro patro wedget dekhauna ko lagi ra market news ko lagi-->
     <script>
         let openclose = document.querySelector(".hamropatro");
+        let marketopenclose = document.querySelector(".marketchart");
         openclose.style.display= "none";
+        marketopenclose.style.display= "none";
         let isShow = true;
         function hamropatrodate(){
             if (isShow) {
@@ -92,9 +365,19 @@
             }
 
         }
+        function marketnews(){
+            if (isShow) {
+                marketopenclose.style.display = "block";
+                isShow=false;
+            }else {
+                marketopenclose.style.display = "none";
+                isShow = true;
+            }
+
+        }
 
     </script>
-<!--Hamropatro ends-->
+<!--js ends-->
     
 </body>
 </html>
