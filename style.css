@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+.mobileview{
+    display: none;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -112,4 +115,34 @@ button{
     background-color: aliceblue;
     margin: 0px;
     padding: 20px;
+}
+@media(max-width: 900px){
+    .pcview{
+        display: none;
+    }
+    .mobileview{
+        display: block;
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+    }
+   .hamropatro{
+    position: absolute;
+    background-color: transparent;
+   }
+   .marketnewzz{
+    position: absolute;
+    left: 95.18%;
+   }
+   .marketchart{
+    position: absolute;
+    right: 0.1%;
+   }
+   button{
+    display: none;
+   }
+    
+
 }
