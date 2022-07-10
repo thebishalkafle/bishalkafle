@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bishal Kafle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="iconn" href="peacock.png">
+</head>
+<body>
+
+    <section class="header" id="header">
+        <nav>
+            <h4 style="color: rgba(128, 255, 0, 0.384);">Bishal Kafle <br> For any inquiry: <a href="mailto:contact@bishalkafle.info.np" style="text-decoration: none; color: wheat">contact@bishalkafle.info.np</a></h4>
+            <div class="nav-links">
+                <ul type="none">
+                    <a href="#header"><li>Home</li></a>
+                    <a href="#gallery"><li>Gallery</li></a>
+                    <a href="#download"><li>Download</li></a>
+                    <a href="#contact"><li>Contact</li></a>
+                    <a href="#request"><li>Request for Sub-domain</li></a>
+                    <a href="https://blog.bishalkafle.info.np" target="_blank"><li>Blogs</li></a>
+                </ul>
+            </div>
+        </nav>
+        <div class="image">
+            <img src="assets/mypic.png" alt="mypic" height="250px" width="250px">
+        </div>
+
+    </section>
+    <section class="gallery" id="gallery">
+        <h2>
+            फोटो 
+            खिचे
+            पछि
+            हालम्ला</h2>
+    </section>
+    <section class="download" id="download">
+        <h3>I've made the HTML/CSS/JAVA script written by me for this website Publicly available!</h3>
+        <p></p>
+        <a href="script.zip" download><img src="assets/download-btn.png" alt="btn-download" height="70px" width="220px"></a>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <form action="https://formspree.io/f/mdobrlja" method="POST" id="my-form">
+                <label for="name">
+                    Name:<br>
+                    <input type="text" placeholder="Name" style="width: 100%;">
+                </label>
+                <label for="Email">
+                    Email:<br>
+                    <input type="email" placeholder="example@gmail.com" style="width: 100%;">
+                </label>
+                <label for="textarea">
+                    Message:<br>
+                    <textarea name="message" id="message" placeholder="message" style="height: 200px; width: 500px;"></textarea>
+                </label>
+                <button type="submit">Submit</button>
+                <div id="status" style="text-align: center; color: red "></div>
+            </form>
+        </div>
+    </section>
+    <section id="request">
+        <div class="requestforsubdomain">
+            <form action="https://formspree.io/f/mdobrlja" method="POST" id="my-form2">
+                <label for="Name">
+                    Name:<br>
+                    <input type="text" placeholder="Name" style="width: 100%;"><br>
+                </label>
+                <label for="Name">
+                    Email Address:<br>
+                    <input type="email" placeholder="example@gmail.com" style="width: 100%;"><br>
+                </label>
+                <label for="Subdomainname">
+                    Subdomain-name:<br>
+                    <input type="text" placeholder="Subdomain-name"> .bishalkafle.info.np<br><br>
+                </label>
+                <label for="DNS config">
+                    DNS to Config:<br>
+                    <textarea name="Dnstoconfig" id="dnstoconfig" placeholder="Enter all CNAME,AAAA,A,MX records with name and target......" style="height: 200px; width: 500px;"></textarea>
+                </label>
+                <button type="submit">Request for Domain</button>
+            </form>
+            <div id="status2" style="text-align: center; color: red "></div>
+        </div>
+
+    </section>
+    <script src="script.js">
+        
+    </script>
+    
+</body>
+</html>
